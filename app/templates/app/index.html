@@ -52,15 +52,24 @@
                             <div class="main-menu  d-none d-lg-block text-right">
                                 <nav>
                                     <ul id="navigation">
-                                        {% for i in page %}
-                                        <li><a class="active"  href="{{ i.get_absolute_url }}">{{ i.menu_title }}</a>
-                                            <ul class="submenu" >
-                                                {% for k in i.childr.all %}
-                                                <li><a href="{{ k.page_title }}">{{ k.menu_title }}</a></li>
-                                                 {% endfor %}
+                                        <li><a class="active" href="{% url 'index' %}">home</a></li>
+                                        <li><a href="{% url 'about' %}">About</a></li>
+                                        
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="{% url 'blog' %}">blog</a></li>
+                                                <li><a href="{% url 'single_blog' %}">single-blog</a></li>
                                             </ul>
                                         </li>
-                                        {% endfor %}
+                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                    <li><a href="{% url 'portfolio_work' %}">Portfolio work</a></li>
+                                                 <li><a href="{% url 'work_details' %}">work details</a></li>
+                                                 <li><a href="{% url 'services' %}">Services</a></li>
+                                                 <li><a href="{% url 'elements' %}">elements</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="{% url 'contact' %}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -110,7 +119,7 @@
                         <div class="hover_inner">
                                 <span>Mobile App</span>
                                 <a href="{% url 'work_details' %}"> <h3>Ubar Mobile App</h3></a>
-
+                                
                         </div>
                     </div>
                 </div>
@@ -437,7 +446,7 @@
             </div>
         </div>
     <!-- /testimonial_area  -->
-
+    
     <!-- discuss_projects_start  -->
     <div class="discuss_projects">
             <div class="outline_text white project d-none d-lg-block">
@@ -468,7 +477,7 @@
                                        <img src="{% static 'app/img/logo.png' %}" alt="">
                                    </a>
                                </div>
-
+    
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6 col-lg-3">
@@ -481,7 +490,7 @@
                                     <li><a href="#">3D Modeling</a></li>
                                     <li><a href="#">Architectural Design</a></li>
                                 </ul>
-
+    
                             </div>
                         </div>
                         <div class="col-xl-3 col-md-6 col-lg-3">

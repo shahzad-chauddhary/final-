@@ -1,52 +1,30 @@
 from django.shortcuts import render
-from django.views.generic import ListView
-from .models import Page,SubMenu
+from django.views.generic import TemplateView
 
 
-class Home(ListView):
-	template_name = 'app/index.html'
-	queryset = Page.objects.all()
-	context_object_name = 'page'
+class Index(TemplateView):
+    template_name = 'app/index.html'
 
+class About(TemplateView):
+    template_name = 'app/about.html'
 
-
-class About(ListView):
-	template_name = 'app/about.html'
-	queryset = Page.objects.all()
-	context_object_name = 'page'
-
-
-class Portfolio_work(ListView):
+class Portfolio_work(TemplateView):
     template_name = 'app/portfolio-work.html'
-    queryset = Page.objects.all()
-    context_object_name = 'page'
 
-class Work_details(ListView):
+class Work_details(TemplateView):
     template_name = 'app/work_details.html'
-    queryset = Page.objects.all()
-    context_object_name = 'page'
 
-class Services(ListView):
+class Services(TemplateView):
     template_name = 'app/services.html'
-    queryset = Page.objects.all()
-    context_object_name = 'page'
 
-class Elements(ListView):
+class Elements(TemplateView):
     template_name = 'app/elements.html'
-    queryset = Page.objects.all()
-    context_object_name = 'page'
 
-class Contact(ListView):
+class Contact(TemplateView):
     template_name = 'app/contact.html'
-    queryset = Page.objects.all()
-    context_object_name = 'page'
 
-class Blog(ListView):
+class Blog(TemplateView):
     template_name = 'app/blog.html'
 
-class Single_blog(ListView):
+class Single_blog(TemplateView):
     template_name = 'app/single-blog.html'
-    queryset = Page.objects.all()
-    context_object_name = 'page'
-
-

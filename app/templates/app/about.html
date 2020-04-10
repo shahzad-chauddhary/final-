@@ -50,15 +50,24 @@
                             <div class="main-menu  d-none d-lg-block text-right">
                                 <nav>
                                     <ul id="navigation">
-                                        {% for i in page %}
-                                        <li><a class="active"  href="{{ i.page_title }}">{{ i.menu_title }}</a>
-                                            <ul class="submenu" >
-                                                {% for k in i.childr.all %}
-                                                <li><a href="{{ k.page_title }}">{{ k.menu_title }}</a></li>
-                                                 {% endfor %}
+                                        <li><a class="active" href="{% url 'index' %}">home</a></li>
+                                        <li><a href="{% url 'about' %}">About</a></li>
+                                        
+                                        <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="{% url 'blog' %}">blog</a></li>
+                                                <li><a href="{% url 'single_blog' %}">single-blog</a></li>
                                             </ul>
                                         </li>
-                                        {% endfor %}
+                                        <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                    <li><a href="{% url 'portfolio_work' %}">Portfolio work</a></li>
+                                                 <li><a href="{% url 'work_details' %}">work details</a></li>
+                                                 <li><a href="{% url 'services' %}">Services</a></li>
+                                                 <li><a href="{% url 'elements' %}">elements</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="{% url 'contact' %}">Contact</a></li>
                                     </ul>
                                 </nav>
                             </div>

@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7db669b-774d-4adb-8231-662fbfb4a113" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/migrations/0002_auto_20200408_1444.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/templates/app/readme.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/migrations/0002_auto_20200408_1444.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/blog.html" afterDir="false" />
@@ -14,13 +14,12 @@
       <change beforePath="$PROJECT_DIR$/app/templates/app/elements.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/elements.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/portfolio-work.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/portfolio-work.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/templates/app/readme.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/services.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/services.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/single-blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/single-blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/templates/app/work_details.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/templates/app/work_details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,17 +46,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/static/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/templates" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Muhammad Shahzad\project\portfolio\app\static\app" />
-      <recent name="C:\Users\Muhammad Shahzad\project\portfolio\app\templates\app" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Muhammad Shahzad\project\portfolio\app" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Muhammad Shahzad\project\portfolio\app\templates" />
+      <recent name="C:\Users\Muhammad Shahzad\project\portfolio\app\static\app" />
+      <recent name="C:\Users\Muhammad Shahzad\project\portfolio\app\templates\app" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -119,7 +119,7 @@
       <workItem from="1586225829700" duration="1851000" />
       <workItem from="1586317153478" duration="1849000" />
       <workItem from="1586358573365" duration="24651000" />
-      <workItem from="1586456361203" duration="12948000" />
+      <workItem from="1586456361203" duration="14836000" />
     </task>
     <servers />
   </component>
