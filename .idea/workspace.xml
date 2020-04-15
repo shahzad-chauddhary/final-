@@ -1,7 +1,191 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a7db669b-774d-4adb-8231-662fbfb4a113" name="Default Changelist" comment="" />
+    <list default="true" id="a7db669b-774d-4adb-8231-662fbfb4a113" name="Default Changelist" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/admin.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/apps.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/migrations/0001_initial.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/migrations/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/animate.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/flaticon.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/gijgo.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/magnific-popup.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/nice-select.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/owl.carousel.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/slick.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/slicknav.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/style.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/theme-default.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/theme-default.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/css/themify-icons.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/about/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/about/about_banner.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/author.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/blog_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/blog_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/blog_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/blog_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/learn_about_bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/single_blog_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/single_blog_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/single_blog_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/single_blog_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/single_blog_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/blog/slide_thumb_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/comment/comment_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/comment/comment_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/comment/comment_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/author.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/author2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/creative_blog/author3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/details/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/details/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/details/banner_details.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/a.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/a2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/d.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/disabled-check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/disabled-radio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/f8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g1.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g2.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g3.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g4.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g5.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g6.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g7.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/g8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/primary-check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/primary-radio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/success-check.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/elements/success-radio.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/favicon.ico" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/favicon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/footer_logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/details_img_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/gallery/details_img_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/portfolio/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/next.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_10.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/post_9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/post/preview.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/svg_icon/1.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/svg_icon/2.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/svg_icon/3.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/team/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/team/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/team/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/team/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/img/testmonial/thumb.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/ajax-form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/contact.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/gijgo.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/imagesloaded.pkgd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/isotope.pkgd.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.ajaxchimp.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.counterup.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.form.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.magnific-popup.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.scrollUp.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.slicknav.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/jquery.validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/mail-script.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/main.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/nice-select.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/owl.carousel.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/plugins.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/popper.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/scrollIt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/slick.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/vendor/jquery-1.12.4.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/vendor/modernizr-3.5.0.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/waypoints.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/static/app/js/wow.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/about.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/blog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/contact.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/contact_process.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/elements.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/main.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/portfolio-work.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/readme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/services.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/single-blog.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/try.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/templates/app/work_details.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/tests.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/db.sqlite3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/manage.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/17796454_1750355985295264_5422577715837553793_n.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/6.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/7.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/8.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/media/gallery/9.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/portfolio/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/portfolio/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/portfolio/urls.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/portfolio/wsgi.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +252,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -94,13 +281,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1301" />
     <option name="height" value="655" />
   </component>
   <component name="ProjectId" id="1ZuSQGuqNsQxdcYJXwS0tEzeTCM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -245,12 +433,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34150326" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23355263" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
